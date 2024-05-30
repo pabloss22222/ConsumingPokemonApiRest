@@ -1,0 +1,125 @@
+.container__homepage{
+    background: linear-gradient(180deg, #FFFFFF -19.18%, rgba(255, 255, 255, 0) 171.03%);
+    margin: 0 auto;
+	max-width: 1440px;
+    min-height: 924px; 
+}
+.container__img__logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 676px;
+    height: 441px;
+    margin: 0 auto;
+}
+.img__logo {
+    margin-top: 256px;
+    margin-bottom: 67px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.title__welcome{
+    color:#FE1936;
+    text-align:center;
+    font-weight: 800;
+    margin-bottom: 8px;
+    font-size: 3.125rem;
+}
+.description{
+    text-align:center;
+    font-weight: 600;
+    font-size:1.56rem;
+    margin-bottom: 51px;
+}
+.container__form{
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+.homepage__form{
+    display: flex;
+    justify-content:center;
+    margin:0 auto;
+    margin-bottom: 45px; 
+    max-width: 660px;
+    box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.3);
+    background-color: WHITE;
+}
+.homepage__input__name{
+    font-size:1.56rem;
+    width: 440px; /*20em*/
+    height: 4.25rem;
+    border: none;
+    opacity: 0.4;
+    padding: 10px;
+}
+.homepage__button__name{
+    font-size: 1.5rem;
+    width: 220px;
+    font-weight: 500;
+    background-color: #D93F3F;
+    color: white;
+    border: none;
+    opacity: 1000px;
+}
+.rectangulo__red {
+
+    height: 5.76rem;
+    background-color:#DD1A1A;
+}
+.rectangulo__black {
+    height: 10.07rem;
+    position: relative;
+    background-color: black;
+}
+.container__cicles{
+  margin:0 auto;
+  height: 7.31rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle__white {
+    width: 7.31rem;  
+    height: 7.31rem;  
+  
+    background-color: white;
+    border-radius: 50%;
+    border: 12px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    margin: 0 auto;
+}
+.circle__gray {
+    width: 3.93rem;  
+    height: 3.93rem; 
+    background-color:#212121;
+    border-radius: 50%;
+    border: 12px solid black;
+  }
+.container__img__picachu {
+    position: relative;
+    width: 100%;
+    height: 155px; 
+    overflow: hidden;
+    background-image: url(/images/imgBack.jpg);
+}
+.img__picachu {
+    position: absolute;
+    width: 160px;
+    height: auto;
+    animation: desplazamiento 10s linear infinite;
+    margin:0;
+    padding:0;
+}
+
+@keyframes desplazamiento { 
+    0% {
+        left: -160px; 
+    }
+    100% {
+        left: calc(100%); 
+    }
+
+}

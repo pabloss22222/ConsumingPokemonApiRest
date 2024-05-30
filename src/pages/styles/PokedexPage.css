@@ -1,0 +1,145 @@
+.container__pokedexpage{
+    min-height: 2549px;
+    margin:0 auto;
+    max-width: 1440px;
+    background: linear-gradient(180deg, #FFFFFF -19.18%, rgba(255, 255, 255, 0) 171.03%);
+}
+.container__poke__rectangular__pk{
+    position: relative;
+    margin-bottom: 2.625rem;
+}
+.img__logo__pk {
+    position: absolute;
+    bottom: 2.1rem; /*65px*/
+    left: 7.4vw;
+    max-width: calc(18vw + 120px); /*431px*/
+    width: 100%;
+    height: 5rem;
+}
+.rectangulo__red__pk{
+    width: 100%;
+    height:7rem;    /*123.18px*/
+    background-color: #DD1A1A;
+}
+.rectangulo__black__pk{
+    width: 100%;
+    height: 3.11rem; /*49.7px*/
+    background: #0C0C0C;
+}
+
+.container__circles{
+    margin:0 auto;
+    height: 7.31rem;
+    position: absolute;
+    top: 4.875rem;
+    right: 4.5vw;
+  }
+  
+.circle__white__pk {
+      
+      width: 7.31rem;  /*width: 117px;*/
+      height: 7.31rem;  /*height: 117px;*/
+      
+      background-color: white;
+      border-radius: 50%;
+      border: 0.75rem solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* position: relative; */
+      bottom: 0px;
+      /* bottom: 49px; */
+      margin: 0 auto;
+      
+}
+    
+.circle__gray__pk {
+      width: 3.93rem;  /* width: 63px; */
+      height: 3.93rem; /*height: 63px;  */
+      background-color:#212121;
+      border-radius: 50%;
+      border: 0.75rem solid black;
+}
+
+
+.welcome__container{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding-left:7.8vw; /*143px*/
+    font-family: Inter;
+    font-size: 1.5rem;
+    line-height: 29.05px;
+    .welcome__text1{
+        color:red;  
+        font-weight: 700;  
+    }
+    .welcome__text2{
+        font-weight: 400;
+        /* border: 1px solid red; */
+        padding-right:12px;
+    }
+}
+.container__form__select-type{
+    display: flex; 
+    margin-top:2.3rem ;
+    margin-bottom: 0.2rem;
+    margin-left: 12px;
+    margin-right:12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:28.14px;
+    /* width:100%; */
+}
+.form__pk{
+    display: flex;
+    background-color: white;
+    max-width: 100%; 
+    box-shadow: 0px 3px 6px 0px #00000026;
+    height: 4.25rem;
+}
+.input__pk{
+    width: 451.54px;
+    height: 4.25rem;
+    font-size: 1.56rem;
+    font-family: Roboto;
+    font-weight: 400;
+    opacity: 0.4;
+    padding: 10px;
+}
+.button__pk{
+    width: 210.48px;
+    background-color: #D93F3F;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.form__inputcardperpage{
+    width: 8rem; /* Ajusta el ancho según sea necesario */
+    height:4.25rem ;
+    -webkit-appearance: none; /* Para Safari y Chrome */
+    appearance: textfield;
+   
+    /* border: 1px solid black; */
+   
+}
+.input__cardperpage{
+    
+    width: 100%;
+    /* border: 1px solid red; */
+    height:100% ;
+    text-align: center;
+}
+.pokeCard__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+.error_msj{
+    margin-top:2.5rem;
+}
